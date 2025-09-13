@@ -1,0 +1,139 @@
+@media (max-width: 600px) {
+ 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(137, 141, 139);
+  width: 100%;
+  height: 50px;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(240, 240, 246);
+  font-family:'Poppins', sans-serif;
+  position: relative;
+  right: -30px;
+  
+}
+.search-bar{
+    left: -80px;
+    position: relative;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 5px;
+    bottom: -50px;
+    z-index: 999;
+}
+.menu-icon {
+  font-size: 26px;
+  cursor: pointer;
+  position: relative;
+  right: -190px;
+  color: rgb(242, 241, 241)
+
+}
+
+.peanut i{
+  position: relative;
+  right: -60px;
+  bottom: -15px;
+  z-index: 999;
+  color: black;
+
+}
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: -250px; 
+  background-color: #302424;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  z-index: 999;
+}
+
+.sidebar a {
+  padding: 12px 24px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.2s;
+  z-index: 1000;
+}
+
+.sidebar a:hover {
+  background: #575757;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 32px;
+  text-decoration: none;
+  color: #fff;
+}
+.sidebar a{
+    font-family: 'poppins',sans-serif;
+    font-weight: 500;
+    position: relative;
+right: -30px;
+bottom: -40px;
+}
+ .peanut{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(40, 182, 132) ;
+    position: relative;
+    bottom: 0px;
+ }
+ .qr i{
+  font-size: 25px;
+  color: white;
+  position: relative;
+  right: -300px;
+ }
+ .section{
+  background-color: #d9f3d4;
+  width: 100%;
+  height: 70px;
+ }
+
+
+.icon-btn img{
+  width: 45px;
+  height:45px;
+  border-radius: 5px;
+  position: relative;
+  right: -20px;
+  bottom: -4px;
+  background-color: #fff;
+  border: #f1f1f1 solid;
+}
+.icon-btn2 img{
+  width: 45px;
+  height:45px;
+  border-radius: 5px;
+  position: relative;
+  right: -100px;
+  top: -100px;
+  background-color: #fff;
+  border: #f1f1f1 solid;
+}
+.icon-btn3 img{
+  width: 45px;
+  height:45px;
+  border-radius: 5px;
+  position: relative;
+  right: -180px;
+  top: -155px;
+  background-color: #fff;
+  border: #f1f1f1 solid;}
+
+}
